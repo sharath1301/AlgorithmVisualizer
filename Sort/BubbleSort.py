@@ -18,6 +18,4 @@ if __name__ == "__main__":
 
     BubbleSort(arr)
 
-    print("Sorted array:")
-    for i in range(len(arr)):
-        print("%d" % arr[i], end=" ")
+    print("Sorted array:", arr)
