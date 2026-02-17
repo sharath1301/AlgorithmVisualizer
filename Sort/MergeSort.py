@@ -6,10 +6,8 @@ def merge_sort(arr, left, right):
         merge(arr, left, mid, right)
 
 def merge(arr, left, mid, right):
-    print(arr, left, mid, right)
     leftArray = arr[left:mid+1]
     rightArray = arr[mid+1: right+1]
-    print(leftArray, rightArray)
     i = 0
     j =0
     k = left
